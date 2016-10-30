@@ -143,7 +143,7 @@ for vert in mst:
 			#Swapping parentId & id because algorithm prints them in reverse
 			vert.parentId, vert.id = vert.id, vert.parentId
 		totalDistance=totalDistance+vert.distance
-
+mst = sorted(mst, key=lambda vertex:(vertex.id,vertex.parentId))
 #Writing output to output file
 writer=open(output_path,"w")
 writer.write(str(totalDistance))
