@@ -1,0 +1,7 @@
+To run the program:
+python main.py [input_file_path] [output_file_path]
+
+SAMPLE input and output files given
+Input in form of :
+n m #First line representing number of nodes and edges in graph
+u v w #Following m lines representing edge on Graph
