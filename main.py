@@ -97,8 +97,8 @@ def mst_prim(g,w):
 	return s
 
 #Set Input Path
-input_path="input.txt"
-output_path="output.txt"
+input_path=sys.argv[1]
+output_path=sys.argv[2]
 
 #Reading Input
 lines = [line.rstrip('\n') for line in open(input_path,"r")]
