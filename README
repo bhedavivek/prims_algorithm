@@ -5,6 +5,3 @@ SAMPLE input and output files given
 Input in form of :
 n m #First line representing number of nodes and edges in graph
 u v w #Following m lines representing edge on Graph
-
-Note: To Improve running time when order in which MST is given, remove line 146
-"mst = sorted(mst, key=lambda vertex:(vertex.id,vertex.parentId))"
